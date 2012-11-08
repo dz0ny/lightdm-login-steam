@@ -1,0 +1,18 @@
+Section: misc
+Priority: optional
+Homepage: https://github.com/dz0ny/lightdm-login-steam
+Standards-Version: 3.9.2
+
+Package: lightdm-login-steam
+Version: 1.0
+Maintainer: Janez Troha <dz0ny@shortmail.com>
+Depends: matchbox-window-manager
+Architecture: all
+Readme: README.md
+Files: usr/sbin/steam-standalone /
+ usr/sbin/steam-standalone /
+ usr/sbin/steam-standalone-full /
+ usr/share/xsessions/Steam.desktop /
+ usr/share/xsessions/Steam-big.desktop /
+Description: Adds login options for Steam and Steam - Big picture mode (bypases Unity)
+ Adds shortcuts to user login, which enables Steam right from the start.
