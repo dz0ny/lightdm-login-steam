@@ -1,0 +1,6 @@
+#!/bin/bash
+
+WMM="matchbox-window-manager -use_titlebar no"
+STEAM="$(which steam) \"steam://open/bigpicture\"" 
+echo $STEAM
+exec $WMM & $STEAM

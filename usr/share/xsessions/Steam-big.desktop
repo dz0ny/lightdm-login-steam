@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Steam - Big picture
+Comment=This will start Steam in Big Picture mode
+Exec=steam-standalone-full
+Type=Application
